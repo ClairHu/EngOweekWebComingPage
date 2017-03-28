@@ -1,0 +1,92 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+/*.bgimg{
+  background-image: url('images/intro-bg.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: purple;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}*/
+
+.timer-area{
+  position: absolute;
+  top : 40%;
+  left: 50%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  transform: translate(-50%, -50%);;
+}
+
+/*.form-wrapper{
+  border: none;
+  padding: .5em;
+  min-width: 20em;
+  margin: 1em auto;
+  overflow: hidden;
+}
+
+input[type = "email"]{
+  border: .5px solid;
+  float: left;
+  font-size: .7em;
+  padding: .5em;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type = "submit"]{
+  float: right;
+  border: .5px solid;
+  color: black;
+  padding: .5em;
+  font-size: .7em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+}*/
+
+.Email-notification{
+  position:  absolute;
+  top : 60%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+/*
+footer#disclaimer{
+  p{
+    font-size: .875em;
+    color: white;
+    font-style: italic;
+
+    span{
+      font-size:1.5em;
+      color: white;
+    }
+  }
+}
+*/
+footer#main-footer{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  font-size: .875em;
+  color: white;
+  transform: translate(-50%, -50%);
+  .box-shadow: (inset, 0, 2px, 5px, darken(@light-bg, 10%));
+}
+
+hr{
+  margin: auto;
+  min-width: 20%;
+}
